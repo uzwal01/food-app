@@ -65,11 +65,6 @@ Configured in `src/App.jsx` using `BrowserRouter`, `Routes`, and `Route`.
 - Home‑specific sections (hero, menus, promotions, brand carousel, testimonials, contact CTA) in `src/styles/HomeStyle.css`.
 - Page banners and content for About, Menu, Blog, and Contact in `src/styles/OtherStyle.css`.
 
-## Available Scripts
-- `npm run dev` → Start Vite dev server
-- `npm run build` → Build for production
-- `npm run preview` → Preview production build locally
-- `npm run lint` → Run ESLint
 
 ## Getting Started
 1. Ensure Node.js (LTS recommended) and npm are installed.
@@ -83,10 +78,6 @@ Configured in `src/App.jsx` using `BrowserRouter`, `Routes`, and `Route`.
    ```
 4. Open the printed local URL in your browser.
 
-To create a production build:
-```bash
-npm run build && npm run preview
-```
 
 ## Components & Data Highlights
 - `Cards` displays a menu item with rating stars, price, and an Add‑to‑Cart link.
@@ -94,12 +85,6 @@ npm run build && npm run preview
 - Rating stars are computed from numeric ratings to render full/half/empty icons.
 - Mock data arrays are embedded in section files for demonstration.
 
-## Notes / Potential Improvements
-- Replace hardcoded mock data with API or CMS data.
-- Standardize JSX attributes: use `className` instead of `class` and ensure `Link` uses `to`.
-- External links in blog cards can use `<a href target="_blank" rel="noopener">` instead of router `Link`.
-- Remove duplicate import of `BrowserRouter` aliasing in `src/App.jsx`.
-- Consider extracting repeated mock data and rating helpers into shared modules.
 
 ---
 Generated for the Food App to provide a quick overview, setup steps, and development notes.
